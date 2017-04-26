@@ -11,7 +11,7 @@ body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
 
-  /*Color: Ash  https://uigradients.com/#Royal */
+  /*Color: Ash  https://uigradients.com/#Royal*/
   background: #606c88; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -528,12 +528,48 @@ iframe {
 
 .user {
   display: inline-block;
-  width: 150px;
+  width: auto;
   height: 150px;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+#avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('../images/profile.jpg');
+
+    /* make a square container */
+    width: 150px;
+    height: 150px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
+
+#avatar_advisor {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('../images/seth.jpg');
+
+    /* make a square container */
+    width: 150px;
+    height: 150px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
 }
 
 .user2 {
@@ -582,6 +618,9 @@ iframe {
   .project-image {
     margin-bottom: 15px;
   }
+  #ad_button {
+    margin-top: 5px;
+  }
 }
 
 
@@ -593,5 +632,8 @@ iframe {
 @media (min-width: 1400px) {
   .container {
     width: 1360px;
+  }
+  #ad_button {
+    margin-top: 5px;
   }
 }
