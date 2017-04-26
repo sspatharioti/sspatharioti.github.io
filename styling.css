@@ -1,0 +1,56 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.name {
+  text-align: left;
+}
+
+.user {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.rbutton {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 95px;
+  font-size: 18px;
+}
+
+.rbutton:hover {
+  opacity:0.8;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sophie {
+  background-image: url('Sofia-Eleni-Spatharioti-hero-image.jpg');
+}
+
+.red {
+  background-color: #EF5350;
+}
+
+.blue {
+  background-color: #64B5F6;
+}
+
+.lime {
+  background-color: #E6EE9C;
+}
+
+
+
+/*.navbar {
+  background: none;
+}*/
