@@ -105,6 +105,67 @@ jQuery(document).ready(function($) {
             );
 
 
+    // Sections appear on scroll
+    //Source:
+  //   $(window).scroll( function(){
+   //
+  //      /* Check the location of each desired element */
+  //      $('.appear').each( function(i){
+   //
+  //          var bottom_of_object = $(this).offset().top + $(this).outerHeight()/2;
+  //          var bottom_of_window = $(window).scrollTop() + $(window).height();
+  //          var height_of_object = $(this).outerHeight()
+   //
+  //          /* If the object is completely visible in the window, fade it it */
+  //          if( bottom_of_window >= bottom_of_object ){
+   //
+  //              $(this).animate({'opacity':'1'},150);
+  //          }
+   //
+  //      });
+   //
+  //  });
+
+        // by default your element will be hidden
+      $('.appear-left').addClass('animated')
+      $('.appear-left').css('opacity', 0)
+      $('.appear-left').waypoint(function(direction) {
+          // animation
+          $(this).animate({'opacity':'1'},150);
+          $(this).addClass('fadeIn')
+      }, {
+         offset: function() {
+             // The bottom of the element is in view
+             return $.waypoints('viewportHeight') - $(this).outerHeight()/2;
+          }
+      });
+      $('.project-zoom').addClass('animated')
+      $('.project-zoom').css('opacity', 0)
+      $('.project-zoom').waypoint(function(direction) {
+          // animation
+          $(this).animate({'opacity':'1'},150);
+          $(this).addClass('zoomIn')
+      }, {
+         offset: function() {
+             // The bottom of the element is in view
+             return $.waypoints('viewportHeight') - $(this).outerHeight()/2;
+          }
+      });
+
+      // $('.appear-right').addClass('animated')
+      // $('.appear-right').css('opacity', 0)
+      // $('.appear-right').waypoint(function(direction) {
+      //     // animation
+      //     $(this).animate({'opacity':'1'},150);
+      //     $(this).addClass('fadeInRight')
+      // }, {
+      //    offset: function() {
+      //        // The bottom of the element is in view
+      //        return $.waypoints('viewportHeight') - $(this).outerHeight()/2;
+      //     }
+      // });
+
+
 
     /* jQuery RSS - https://github.com/sdepold/jquery-rss */
 

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 
 
@@ -37,9 +38,9 @@
     <!-- ******HEADER****** -->
     <header class="header">
         <div class="container">
-          <a href="index.html" ><div class="profile-image pull-left" id="avatar"  alt="Sophie Spatharioti" ></div></a>
-            <div class="profile-content pull-left">
-                <h1 class="name">Sophie Spatharioti</h1>
+          <a href="index.html" ><div class="profile-image pull-left animated zoomIn" id="avatar"  alt="Sophie Spatharioti" ></div></a>
+            <div class="profile-content pull-left animated zoomIn">
+                <h1 class="name ">Sophie Spatharioti</h1>
                 <h2 class="desc">PhD Candidate</h2>
                 <ul class="social list-inline">
                     <li><a href="https://twitter.com/FouSpath"  target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -88,8 +89,7 @@
                 </section><!--//section-->
 
 
-
-                <section class="projects section publications">
+                <section class="projects section publications appear-left">
                     <div class="section-inner">
                         <h2 class="heading">Publications</h2>
                         <div class="content">
@@ -112,7 +112,7 @@
                     </div><!--//section-inner-->
                 </section><!--//section-->
 
-                <section class="projects section presentations">
+                <section class="projects section presentations appear-left">
                     <div class="section-inner">
                         <h2 class="heading">Presentations</h2>
                         <div class="content">
@@ -135,7 +135,7 @@
                     </div><!--//section-inner-->
                 </section><!--//section-->
 
-                <section class="experience section work">
+                <section class="experience section work appear-left">
                     <div class="section-inner">
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
@@ -157,7 +157,7 @@
                              <div class="item featured text-center">
                                  <h3 class="title"><a data-toggle="modal" data-target="#soon_modal" target="_blank">Cartosco.pe</a></h3>
                                  <p class="summary"> An opensource online platform for crowdsourcing analysis of environmental disasters</p>
-                                 <div class="featured-image">
+                                 <div class="featured-image project-zoom">
                                      <a data-toggle="modal" data-target="#soon_modal" target="_blank">
                                      <img class="img-responsive project-image" src="assets/images/projects/cartoscope_museum_main.png" alt="Cartoscope" />
                                      </a>
@@ -172,7 +172,7 @@
                                  <!-- <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fa fa-thumbs-o-up"></i> View project</a> -->
                              </div><!--//item-->
                              <hr class="divider" />
-                             <div class="item row">
+                             <div class="item row project-zoom">
                                  <a class="col-md-4 col-sm-4 col-xs-12" href="https://twitter.com/openi_ict" target="_blank">
                                  <img class="img-responsive project-image" src="assets/images/projects/openi_logo.png" alt="OPENi" />
                                  </a>
@@ -183,7 +183,7 @@
                                  </div><!--//desc-->
                              </div><!--//item-->
 
-                             <div class="item row">
+                             <div class="item row  project-zoom">
                                  <a class="col-md-4 col-sm-4 col-xs-12" href="http://iot-cosmos.eu/" target="_blank">
                                  <img class="img-responsive project-image" src="assets/images/projects/cosmos_logo.png" alt="COSMOS" />
                                  </a>
@@ -204,7 +204,7 @@
                  </section><!--//section-->
 
 
-                 <div class="blog section">
+                 <div class="blog section appear-left">
                    <div class="section-inner">
                        <h2 class="heading">Latest News</h2>
                         <div class="content">
@@ -265,7 +265,7 @@
 
 
 
-                 <section class="projects section maps">
+                 <section class="projects section maps appear-left">
                      <div class="section-inner">
                          <h2 class="heading">World Map</h2>
                          <p class="intro">I love randomly spawning in places.
@@ -348,7 +348,7 @@
 
 
 
-                <aside class="education aside section">
+                <aside class="education aside section appear-right">
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
                         <div class="content">
@@ -364,7 +364,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
 
-                <aside class="languages aside section">
+                <aside class="languages aside section appear-right">
                     <div class="section-inner">
                         <h2 class="heading">Languages</h2>
                         <div class="content">
@@ -389,7 +389,7 @@
 
 
 
-                <aside class="list conferences aside section">
+                <aside class="list conferences aside section appear-right">
                     <div class="section-inner">
                         <h2 class="heading">Conferences</h2>
                         <div class="content">
@@ -458,12 +458,13 @@
     </footer><!--//footer-->
 
     <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
     <!-- github calendar plugin -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
     <!-- github activity plugin -->
     <!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script> -->
     <!-- custom js -->
