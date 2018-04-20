@@ -75,7 +75,7 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>I am currently a PhD student in the Computer Science program at Northeastern University’s College of Computer and Information Science, advised by Professor Seth Cooper.
+                            <p>I am currently a PhD candidate in the Computer Science program at Northeastern University’s College of Computer and Information Science, advised by Professor Seth Cooper.
                               In 2015, I received my degree in Electrical and Computer Engineering from the National Technical University of Athens, Greece.
                               My main research interests include human-computer interaction, games, and crowdsourcing.</p>
 
@@ -103,16 +103,21 @@
                     <div class="section-inner">
                         <h2 class="heading">Publications</h2>
                         <div class="content">
+                          <div class="item">
+                            <!-- TODO: Update Links when available -->
+                              <h3 class="title"><a  href="#">Does Flight Path Context Matter? Impact on Worker Performance in Crowdsourced Aerial Imagery Analysis</a></h3>
+                              <p class="authors">Sofia Eleni Spatharioti, Sara Wylie, Seth Cooper </p>
+                              <p class="summary"> Proceedings of the 15th International Conference on Information Systems for Crisis Response And Management, (ISCRAM 2018)  <!--  <span class="label label-theme">To Appear</span></p> -->
+                          </div><!--//item-->
                             <div class="item">
-                              <!-- TODO: Update Links when available -->
                                 <h3 class="title"><a  href="http://idl.iscram.org/show.php?record=1482">A Required Work Payment Scheme for Crowdsourced Disaster Response: Worker Performance and Motivations</a></h3>
                                 <p class="authors">Sofia Eleni Spatharioti, Rebecca Govoni, Jennifer S. Carrera, Sara Wylie, Seth Cooper </p>
-                                <p class="summary"> Proceedings of the 14th International Conference on Information Systems for Crisis Response And Management, (2017)  <!-- <span class="label label-theme">To Appear</span></p> -->
+                                <p class="summary"> Proceedings of the 14th International Conference on Information Systems for Crisis Response And Management, (ISCRAM 2017)  <!-- <span class="label label-theme">To Appear</span></p> -->
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"><a href="http://idl.iscram.org/show.php?record=1483">On Variety, Complexity, and Engagement in Crowdsourced Disaster Response Tasks</a> </h3>
                                 <p class="authors">Sofia Eleni Spatharioti, Seth Cooper </p>
-                                <p class="summary"> Proceedings of the 14th International Conference on Information Systems for Crisis Response And Management, (2017)  <!--  <span class="label label-theme">To Appear</span></p> -->
+                                <p class="summary"> Proceedings of the 14th International Conference on Information Systems for Crisis Response And Management, (ISCRAM 2017)  <!--  <span class="label label-theme">To Appear</span></p> -->
                                 <p class="summary"><span class="label label-theme"><i class="fa fa-trophy"></i> Best Student Paper Award Nomination</span></p>
 
                             </div><!--//item-->
@@ -343,7 +348,7 @@
                                     </div><!--//level-bar-->
                                 </div><!--//item-->
                                 <div class="item">
-                                    <h3 class="level-title">C <span class="level-label">Experienced</span></h3>
+                                    <h3 class="level-title">C# <span class="level-label">Experienced</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="70%">
                                         </div>
@@ -510,7 +515,8 @@
           {lat: 34.052234, lng: -118.243685, name:"Los Angeles, CA"},
           {lat: 29.951066, lng: -90.071532, name:"New Orleans, LA"},
           //Rest:
-          {lat: 9.392308, lng: -84.136988, name:" Costa Rica"}
+          {lat: 9.392308, lng: -84.136988, name:" Costa Rica"},
+          {lat: 20.967370, lng: -89.592586, name:" Mexico"}
         ]
 
         var myLatLng = {lat: 4.915832801313165, lng: -36.5625};
@@ -554,7 +560,7 @@
             });
             var marker = new google.maps.Marker({
               map: map,
-              draggable: true,
+              draggable: false,
               animation: google.maps.Animation.DROP,
               position: {lat: item.lat, lng: item.lng},
               title: item.name,
