@@ -1,5 +1,10 @@
 jQuery(document).ready(function($) {
 
+
+
+
+
+
   /*======= Paper Requirement Stuff *=======*/
 
   $('#ab_button').click(function(){
@@ -125,32 +130,32 @@ jQuery(document).ready(function($) {
   //      });
    //
   //  });
-
-        // by default your element will be hidden
-      $('.appear-left').addClass('animated')
-      $('.appear-left').css('opacity', 0)
-      $('.appear-left').waypoint(function(direction) {
-          // animation
-          $(this).animate({'opacity':'1'},150);
-          $(this).addClass('fadeIn')
-      }, {
-         offset: function() {
-             // The bottom of the element is in view
-             return $.waypoints('viewportHeight') - $(this).outerHeight()/2;
-          }
-      });
-      $('.project-zoom').addClass('animated')
-      $('.project-zoom').css('opacity', 0)
-      $('.project-zoom').waypoint(function(direction) {
-          // animation
-          $(this).animate({'opacity':'1'},150);
-          $(this).addClass('zoomIn')
-      }, {
-         offset: function() {
-             // The bottom of the element is in view
-             return $.waypoints('viewportHeight') - $(this).outerHeight()/2;
-          }
-      });
+      // 
+      //   // by default your element will be hidden
+      // $('.appear-left').addClass('animated')
+      // $('.appear-left').css('opacity', 0)
+      // $('.appear-left').waypoint(function(direction) {
+      //     // animation
+      //     $(this).animate({'opacity':'1'},150);
+      //     $(this).addClass('fadeIn')
+      // }, {
+      //    offset: function() {
+      //        // The bottom of the element is in view
+      //        return $.waypoints('viewportHeight') - $(this).outerHeight()/2;
+      //     }
+      // });
+      // $('.project-zoom').addClass('animated')
+      // $('.project-zoom').css('opacity', 0)
+      // $('.project-zoom').waypoint(function(direction) {
+      //     // animation
+      //     $(this).animate({'opacity':'1'},150);
+      //     $(this).addClass('zoomIn')
+      // }, {
+      //    offset: function() {
+      //        // The bottom of the element is in view
+      //        return $.waypoints('viewportHeight') - $(this).outerHeight()/2;
+      //     }
+      // });
 
       // $('.appear-right').addClass('animated')
       // $('.appear-right').css('opacity', 0)

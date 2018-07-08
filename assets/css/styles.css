@@ -7,31 +7,38 @@
  * Website: http://themes.3rdwavemedia.com/
 */
 /* ======= Base ======= */
-body {
-  font-family: 'Lato', arial, sans-serif;
-  color: #434343;
 
+
+
+body {
+  font-family: 'Nunito', arial, sans-serif;
+  color: #434343;
   /*Color: Ash  https://uigradients.com/#Royal*/
-  background: #606c88; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #f4f7f6; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */ */
+  /* background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */ */
 
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+p {
+  font-size:16px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-weight: 700;
-  color: #778492;
+  color: #778492
 }
 a {
-  color: #6A1B9A;
+  color: #78C2AD;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -39,8 +46,8 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #5f6b77;
-  color: #6A1B9A;
+  color: #78C2AD;
+  /* color: #6A1B9A; */
 }
 a:focus {
   text-decoration: none;
@@ -51,7 +58,7 @@ a.btn {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: 'Alegreya Sans', arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
 }
@@ -65,16 +72,16 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #9C27B0;
-  border: 1px solid #9C27B0;
+  background: #78C2AD;
+  border: 1px solid #78C2AD;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #9C27B0;
-  border: 1px solid #9C27B0;
+  background: #4e937f;
+  border: 1px solid #4e937f;
   color: #fff;
 }
 a.btn-cta-secondary,
@@ -95,7 +102,7 @@ a.btn-cta-secondary:hover,
   color: #32383e;
 }
 .label-theme {
-  background: #9C27B0;
+  background: #78C2AD;
   font-size: 12px;
 }
 a.dotted-link {
@@ -122,7 +129,7 @@ iframe {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
+  background: #f4f7f6;
   /*border-top: 10px solid #778492;*/
 }
 .header .btn {
@@ -140,14 +147,14 @@ iframe {
 }
 .header .profile-content .desc {
   color: #778492;
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Nunito", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   margin-top: 0;
   margin-bottom: 15px;
 }
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #78C2AD;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -251,7 +258,7 @@ iframe {
   overflow: hidden;
 }
 .latest .featured-image .ribbon .text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   position: relative;
   left: -8px;
   top: 18px;
@@ -377,7 +384,7 @@ iframe {
   color: #ccd1d6;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Nunito", arial, sans-serif;
   position: absolute;
   right: 0;
   top: 0;
@@ -388,7 +395,7 @@ iframe {
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #9C27B0;
+  background: #78C2AD;
 }
 /* Testimonials section */
 .testimonials .item {
@@ -431,7 +438,7 @@ iframe {
   margin-top: 0;
 }
 .education .item .university {
-  font-family: "Lato", arial, sans-serif;
+  font-family: "Nunito", arial, sans-serif;
   font-size: 13px;
   color: #999;
   font-weight: 600;
@@ -455,7 +462,7 @@ iframe {
   margin-bottom: 0;
 }
 .languages .item .fa {
-  color: #9C27B0;
+  color: #78C2AD;
 }
 /* Blog Section */
 .blog .item {
@@ -506,20 +513,20 @@ iframe {
 /* ======= Footer ======= */
 .footer {
   /*Color: Ash  (https://uigradients.com/#Royal)*/
-  background: #606c88; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #606c88; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */ */
+  /* background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */ */
 
   color: #fff;
   padding: 10px 0;
 }
 .footer .copyright {
   line-height: 1.6;
-  color: #a1aab4;
+  color: #78C2AD;
   font-size: 14px;
 }
 .footer a {
-  color: #fff;
+  color: #78C2AD;
 }
 .footer .fa-heart {
   color: #fb866a;
@@ -551,7 +558,7 @@ iframe {
     background-position: center;
 
     /* round the edges to a circle with border radius 1/2 container size */
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 #avatar_advisor {
@@ -590,12 +597,25 @@ iframe {
   height: 500px;
 }
 .magen {
-  color: #6A1B9A;
+  color: #78C2AD;
 }
 
 .carousel-control.left, .carousel-control.right {
    background-image:none !important;
    filter:none !important;
+}
+
+.alert_custom{
+  background: #78C2AD;
+  color:#fff
+}
+
+.carouselImg{
+  height: 400px !important
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }
 
 
