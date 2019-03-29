@@ -2,7 +2,15 @@ jQuery(document).ready(function($) {
 
 
 
-
+/*======= Carousel *=======*/
+    $('.slick_carousel').slick({
+      dots: true,
+    infinite: true,
+    // speed: 500,
+    // fade: true,
+    // cssEase: 'linear',
+    autoplay: true
+    });
 
 
   /*======= Paper Requirement Stuff *=======*/
@@ -130,7 +138,7 @@ jQuery(document).ready(function($) {
   //      });
    //
   //  });
-      // 
+      //
       //   // by default your element will be hidden
       // $('.appear-left').addClass('animated')
       // $('.appear-left').css('opacity', 0)

@@ -24,9 +24,14 @@
  {lat: 41.499320, lng: -81.694361, name:"Cleveland, OH"},
  {lat: 34.052234, lng: -118.243685, name:"Los Angeles, CA"},
  {lat: 29.951066, lng: -90.071532, name:"New Orleans, LA"},
+ {lat: 35.779591, lng: -78.638176, name:"Raleigh, NC"},
+ {lat:41.878113, lng: -87.629799 , name:"Chicago, IL"},
  //Rest:
  {lat: 9.392308, lng: -84.136988, name:" Costa Rica"},
- {lat: 20.967370, lng: -89.592586, name:" Mexico"}]
+ {lat: 20.967370, lng: -89.592586, name:" Mexico"},
+ {lat: 25.034281, lng: -77.396278, name:"The Bahamas"}
+
+]
 
  //dot svg
  var targetSVG = "M368.19 208.41C368.19 222.2 356.99 233.41 343.19 233.41C329.39 233.41 318.19 222.2 318.19 208.41C318.19 194.61 329.39 183.41 343.19 183.41C356.99 183.41 368.19 194.61 368.19 208.41Z"
