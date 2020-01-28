@@ -182,7 +182,7 @@
                               <p class="authors">Sofia Eleni Spatharioti, Seth Cooper </p>
                               <p class="summary">(Exhibition) Citizen Science Association Festival, North Carolina Museum of Natural Sciences (CSA2019) </p>
                               <p><a class="more-link" href="https://www.citizenscience.org/events/conferences/citsci2019/citizen-science-festival-at-citsci2019/" target="_blank"><i class="fa fa-external-link"></i> More Info</a></p>
-                          </div><!--//item--> 
+                          </div><!--//item-->
                           <div class="item">
                               <h3 class="title"><a href="assets/files/iscram_2018_poster.pdf" target="_blank">Identifying and Assessing Points of Interest through Crowdsourced Image Analysis</a></h3>
                               <p class="authors">Sofia Eleni Spatharioti, Seth Cooper </p>
@@ -683,78 +683,82 @@
       AOS.init();
       function initMap() {
 
-        //http://www.latlong.net/
-        var markers = [
-          //Europe
-          {lat: 37.9833333, lng: 23.7333333, name: "Athens, Greece"},
-          {lat: 48.856614, lng: 2.352222, name:"Paris, France" },
-          {lat: 41.902783, lng: 12.496366, name: "Rome, Italy" },
-          {lat: 45.070312, lng: 7.686856, name: "Turin, Italy" },
-          {lat: 40.416775, lng: -3.703790, name:"Madrid, Spain"},
-          {lat: 51.507351, lng: -0.127758, name: "London, UK" },
-          {lat: 50.909700, lng: -1.404351, name: "Southampton, UK" },
-          {lat: 43.925085, lng: 2.148641, name: "Albi, France" },
-          //USA
-          {lat: 42.360082, lng: -71.058880, name: "Boston, USA" },
-          {lat: 37.338208, lng: -121.886329, name: "San Jose, CA"},
-          {lat: 30.267153, lng: -97.743061, name: "Austin, TX"},
-          {lat: 25.761680, lng: -80.191790, name: "Miami, FL"},
-          {lat: 47.606209, lng: -122.332071, name:"Seattle, WA"},
-          {lat: 40.712784, lng: -74.005941, name:"New York, NY"},
-          {lat: 44.943888, lng: -93.099710, name:"St Paul, MN"},
-          {lat: 41.499320, lng: -81.694361, name:"Cleveland, OH"},
-          {lat: 34.052234, lng: -118.243685, name:"Los Angeles, CA"},
-          {lat: 29.951066, lng: -90.071532, name:"New Orleans, LA"},
-          {lat: 35.779591, lng: -78.638176, name:"Raleigh, NC"},
-          {lat:41.878113, lng: -87.629799 , name:"Chicago, IL"},
-          {lat:21.306944, lng: -157.858337, name:"Honolulu, HI"},
-          //Rest:
-          {lat: 9.392308, lng: -84.136988, name:" Costa Rica"},
-          {lat: 20.967370, lng: -89.592586, name:"Mexico"},
-          {lat: 25.034281, lng: -77.396278, name:"The Bahamas"}
-        ]
-        var myLatLng = {lat: 4.915832801313165, lng: -36.5625};
-        var prev_infowindow = false;
-
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 2,
-          center: myLatLng
-        });
-
-        //add markers
-          for (var i = 0; i < markers.length; i++) {
-            var markr = createMarker(markers[i]);
-            // marker.addListener('click', toggleBounce);
-            markr.setMap(map);
-          }
-          function createMarker(item) {
-            var nm = item.name;
-            if (nm.includes("Boston") || nm.includes("Athens")) {
-              var icn = 'assets/images/home2_red.svg'
-            } else{
-              var icn = 'assets/images/red_pin.png'
-            }
-            var infw = new google.maps.InfoWindow({
-              content: item.name
-            });
-            var marker = new google.maps.Marker({
-              map: map,
-              draggable: false,
-              animation: google.maps.Animation.DROP,
-              position: {lat: item.lat, lng: item.lng},
-              title: item.name,
-              infowindow: infw,
-              icon: icn
-            });
-            google.maps.event.addListener(marker, 'click', function() {
-              if( prev_infowindow ) { prev_infowindow.close();}
-              prev_infowindow = this.infowindow;
-              this.infowindow.open(map, this);
-            });
-            return marker;
-          }
+        // //http://www.latlong.net/
+        // var markers = [
+        //   //Europe
+        //   {lat: 37.9833333, lng: 23.7333333, name: "Athens, Greece"},
+        //   {lat: 48.856614, lng: 2.352222, name:"Paris, France" },
+        //   {lat: 41.902783, lng: 12.496366, name: "Rome, Italy" },
+        //   {lat: 45.070312, lng: 7.686856, name: "Turin, Italy" },
+        //   {lat: 40.416775, lng: -3.703790, name:"Madrid, Spain"},
+        //   {lat: 51.507351, lng: -0.127758, name: "London, UK" },
+        //   {lat: 50.909700, lng: -1.404351, name: "Southampton, UK" },
+        //   {lat: 43.925085, lng: 2.148641, name: "Albi, France" },
+        //   {lat: 41.385063, lng: 2.173404, name: "Barcelona, Spain" },
+        //   //USA
+        //   {lat: 42.360082, lng: -71.058880, name: "Boston, USA" },
+        //   {lat: 37.338208, lng: -121.886329, name: "San Jose, CA"},
+        //   {lat: 30.267153, lng: -97.743061, name: "Austin, TX"},
+        //   {lat: 25.761680, lng: -80.191790, name: "Miami, FL"},
+        //   {lat: 47.606209, lng: -122.332071, name:"Seattle, WA"},
+        //   {lat: 40.712784, lng: -74.005941, name:"New York, NY"},
+        //   {lat: 44.943888, lng: -93.099710, name:"St Paul, MN"},
+        //   {lat: 41.499320, lng: -81.694361, name:"Cleveland, OH"},
+        //   {lat: 34.052234, lng: -118.243685, name:"Los Angeles, CA"},
+        //   {lat: 29.951066, lng: -90.071532, name:"New Orleans, LA"},
+        //   {lat: 35.779591, lng: -78.638176, name:"Raleigh, NC"},
+        //   {lat:41.878113, lng: -87.629799 , name:"Chicago, IL"},
+        //   {lat:21.306944, lng: -157.858337, name:"Honolulu, HI"},
+        //   //Rest:
+        //   {lat: 9.392308, lng: -84.136988, name:" Costa Rica"},
+        //   {lat: 20.967370, lng: -89.592586, name:"Mexico"},
+        //   {lat: 25.034281, lng: -77.396278, name:"The Bahamas"}
+        // ]
+        // var myLatLng = {lat: 4.915832801313165, lng: -36.5625};
+        // var prev_infowindow = false;
+        //
+        // var map = new google.maps.Map(document.getElementById('map'), {
+        //   zoom: 2,
+        //   center: myLatLng
+        // });
+        //
+        // console.log(markers.length)
+        //
+        // //add markers
+        //   for (var i = 0; i < markers.length; i++) {
+        //     var markr = createMarker(markers[i]);
+        //     // marker.addListener('click', toggleBounce);
+        //     markr.setMap(map);
+        //   }
+        //   function createMarker(item) {
+        //     var nm = item.name;
+        //     if (nm.includes("Boston") || nm.includes("Athens")) {
+        //       var icn = 'assets/images/home2_red.svg'
+        //     } else{
+        //       var icn = 'assets/images/red_pin.png'
+        //     }
+        //     var infw = new google.maps.InfoWindow({
+        //       content: item.name
+        //     });
+        //     var marker = new google.maps.Marker({
+        //       map: map,
+        //       draggable: false,
+        //       animation: google.maps.Animation.DROP,
+        //       position: {lat: item.lat, lng: item.lng},
+        //       title: item.name,
+        //       infowindow: infw,
+        //       icon: icn
+        //     });
+        //     google.maps.event.addListener(marker, 'click', function() {
+        //       if( prev_infowindow ) { prev_infowindow.close();}
+        //       prev_infowindow = this.infowindow;
+        //       this.infowindow.open(map, this);
+        //     });
+        //     return marker;
+        //   }
     }
     </script>
+
     <!-- <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=your_key_hereM&callback=initMap">
     </script> -->
