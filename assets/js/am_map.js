@@ -29,6 +29,7 @@
    {lat: 35.779591, lng: -78.638176, name:"Raleigh, NC"},
    {lat:41.878113, lng: -87.629799 , name:"Chicago, IL"},
    {lat:21.306944, lng: -157.858337, name:"Honolulu, HI"},
+   {lat:44.052071, lng: -123.086754, name:"Eugene, OR"},
    //Rest:
    {lat: 9.392308, lng: -84.136988, name:" Costa Rica"},
    {lat: 20.967370, lng: -89.592586, name:"Mexico"},
