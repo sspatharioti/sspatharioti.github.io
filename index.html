@@ -46,7 +46,7 @@
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <script src="https://kit.fontawesome.com/8556134c90.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -84,12 +84,13 @@
           <a href="index.html" > <div class="profile-image pull-left" id="avatar"  alt="Sophie Spatharioti" ></div></a>
             <div  class="profile-content pull-left ">
                 <h1 class="name ">Sophie Spatharioti</h1>
-                <h2 class="desc">PhD Candidate</h2>
+                <h2 class="desc"><a href="https://www.microsoft.com/en-us/research/people/sspatharioti/" target="_blank">Postdoctoral Researcher, Microsoft Research NYC</a></h2>
                 <ul class="social list-inline">
                     <li><a href="https://twitter.com/FouSpath"  target="_blank"><i class="fa fa-twitter "></i></a></li>
                     <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
                     <li><a href="https://www.linkedin.com/in/sofia-eleni-spatharioti/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="https://scholar.google.com/citations?hl=en&user=tZlDkNAAAAAJ" target="_blank"><i class="fa fa-graduation-cap"></i></a></li>
+                    <!-- <li><a href="https://www.microsoft.com/en-us/research/people/sspatharioti/" target="_blank"><i class="fab fa-microsoft"></i></a></li> -->
 
                     <!-- <li ><a href="#"><i class="fa fa-facebook"></i></a></li> -->
                     <!-- <li class="last-item"><a href="https://www.flickr.com/photos/sophie_sp/" target="_blank"><i class="fa fa-flickr"></i></a></li> -->
@@ -110,28 +111,34 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>I am currently a PhD candidate in the Computer Science program at Northeastern University’s Khoury College of Computer Sciences, advised by Professor Seth Cooper.
+                            <p>I am currently a postdoctoral researcher at <a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research NYC</a>
+                              in the <a target="_blank" href="https://www.microsoft.com/en-us/research/group/computational-social-science/">Computational Social Science Group</a>.
+                              My main research interests include human-computer interaction, games, and crowdsourcing.
+
+                            </p>
+                            <p>
+                               I received my Ph.D. in Computer Science from Northeastern University’s Khoury College of Computer Sciences, where I was advised by Professor <a target="_blank" href="https://www.khoury.northeastern.edu/people/seth-cooper/"  >Seth Cooper</a>.
+                               I was awarded a <a target="_blank" href="https://phd.northeastern.edu/opportunity/fall2020-dcf/">Dissertation Completion Fellowship </a> by Northeastern University
+                              to complete my Ph.D. studies in the Fall 2020 semester. 
                               In 2015, I received my degree in Electrical and Computer Engineering from the National Technical University of Athens, Greece.
-                              My main research interests include human-computer interaction, games, and crowdsourcing.</p>
+                              
+                            </p>
+                              <!-- In 2015, I received my degree in Electrical and Computer Engineering from the National Technical University of Athens, Greece.
+                              </p> -->
 
                               <!-- <p>
                                 Last summer, I returned to <a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research NYC</a>
                                 for an internship, mentored by <a target="_blank" href="http://jakehofman.com/">Jake Hofman</a> and <a target="_blank" href="http://www.dangoldstein.com/">Dan Goldstein</a>.
                               </p> -->
 
-                              <p>
+                              <!-- <p>
                                 I have also been fortunate enough to have interned twice at <a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research NYC</a>
                                 mentored by <a target="_blank" href="http://jakehofman.com/">Jake Hofman</a> and <a target="_blank" href="http://www.dangoldstein.com/">Dan Goldstein</a>.
                                 While there, I worked on the <a target="_blank" href="https://www.microsoft.com/en-us/research/project/perspectives-engine/">Perspectives Engine</a> project,	about	generating	helpful	analogies	for	unfamiliar	numbers.
 	                              Part of my work	has	been	deployed to	Microsoft	PowerPoint.
-                              </p>
+                              </p> -->
 
-                              <p><b>
-                                <i class="fa fa-trophy"></i>
-                              I was recently awarded a <a target="_blank" href="https://phd.northeastern.edu/opportunity/fall2020-dcf/">Dissertation Completion Fellowship </a> by Northeastern University
-                              to complete my PhD studies in the Fall 2020 semester.
-                            </b>
-                              </p>
+                              
 
                               <p>Outside of research, I am a big tennis fan and you can easily spot me in the crowd by my headphones.
                               I love traveling and making my mum worry every time I get on a plane. </p>
@@ -157,6 +164,19 @@
                     <div class="section-inner">
                         <h2 class="heading">Publications</h2>
                         <div class="content">
+                          <div class="item">
+                            <!-- TODO: Update Links when available -->
+                              <h3 class="title">
+                                <!-- <a  href="https://dl.acm.org/citation.cfm?id=3356299" target="_blank"> -->
+                              <a data-toggle="modal" data-toggle="modal" data-target="#soon_modal">
+                                A Comparison of Augmented Reality and Digital Versions of a Citizen Science Game
+                              </a></h3>
+                              <p class="authors">Kutub Gandhi, Josh Aaron Miller, <b>Sofia Eleni Spatharioti</b>, Archana Apte, Borna Fatehi, Sara Wylie and Seth Cooper </p>
+                              <p class="summary">
+                                <span class="label label-default">To Appear</span>
+                                Proceedings of the 16th International Conference on the Foundations of Digital Games (FDG 2021)
+                                </p>
+                          </div><!--//item-->
                           <div class="item">
                             <!-- TODO: Update Links when available -->
                               <h3 class="title">
@@ -256,6 +276,25 @@
                           <div class="content">
 
                             <div  class="item row  ">
+                              <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/" target="_blank">
+                              <img class="img-responsive project-image" src="assets/images/msr_logo.png" alt="Microsoft Research"  style="width:200px"/>
+                              </a>
+                              <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                <h3 class="title">Postdoctoral Researcher - <span class="place">
+                                  <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/">Microsoft Research, New York</a></span>
+                                  <span class="year">(03/2021 - Present)</span></h3>
+                                <p>
+                                  Part of the <a target="_blank" href="https://www.microsoft.com/en-us/research/group/computational-social-science/">Computational Social Science Group</a>.
+                                  Working on the <a target="_blank" href="https://www.microsoft.com/en-us/research/project/perspectives-engine/">Perspectives Engine</a> research project,
+                                  which aims to generate perspectives for helping people understand unfamiliar numbers encountered in news and other sources.
+                                  Part of my work is now deployed in PowerPoint.
+
+
+                                </p>
+                              </div>
+                          </div>
+
+                            <div  class="item row  ">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-new-york/" target="_blank">
                                 <img class="img-responsive project-image" src="assets/images/msr_logo.png" alt="Microsoft Research"  style="width:200px"/>
                                 </a>
@@ -285,7 +324,7 @@
                                     Part of the <a target="_blank" href="https://www.microsoft.com/en-us/research/group/computational-social-science/">Computational Social Science Group</a>, mentored by <a target="_blank" href="http://jakehofman.com/">Jake Hofman</a> and <a target="_blank" href="http://www.dangoldstein.com/">Dan Goldstein</a>.
                                     Designed and implemented a crowdsourcing platform and database
                                     to generate perspectives for helping people understand unfamiliar numbers encountered in news and other sources.
-                                    Part of my work is now deployed in PowerPoint.
+                                    
 
 
                                   </p>
@@ -531,7 +570,7 @@
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Boston, MA, USA</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a <a href="mailto:spatharioti.s@northeastern.edu?Subject=" target="_top">spatharioti.s[at]northeastern.edu</a></li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>sspatharioti[at]microsoft.com</li>
                                 <!-- <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a></li> -->
                             </ul>
                         </div><!--//content-->
@@ -640,13 +679,13 @@
                         <h2 class="heading">Conferences</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-
-                              <li><i class="fa fa-calendar magen"></i> <a href="http://www.fdg2020.org/">FDG 2020</a> (Bugibba, Malta)</li>
-                              <li><i class="fa fa-calendar magen"></i> <a href="https://chiplay.acm.org/2019/">CHI PLAY 2019</a> (Barcelona, Spain)</li>
-                              <li><i class="fa fa-calendar magen"></i> <a href="https://www.citizenscience.org/events/conferences/citsci2019/">CitSci 2019</a> (Raleigh, NC)</li>
-                              <li><i class="fa fa-calendar magen"></i> <a href="http://iscram2018.rit.edu/">ISCRAM 2018</a> (Rochester, NY, USA)</li>
-                              <li><i class="fa fa-calendar magen"></i> <a href="https://iscram2017.mines-albi.fr/">ISCRAM 2017</a> (Albi, France)</li>
-                              <li><i class="fa fa-calendar magen"></i> <a href="http://citizenscience.org/association/conferences/citsci2017/">CitSci 2017 </a> (Saint Paul, MN, USA)</li>
+                              <li><i class="fa fa-calendar magen"></i> <a href="http://www.fdg2021.org/" target="_blank">FDG 2021</a> (Montréal, Canada)</li>
+                              <li><i class="fa fa-calendar magen"></i> <a href="http://www.fdg2020.org/" target="_blank">FDG 2020</a> (Bugibba, Malta)</li>
+                              <li><i class="fa fa-calendar magen"></i> <a href="https://chiplay.acm.org/2019/" target="_blank">CHI PLAY 2019</a> (Barcelona, Spain)</li>
+                              <li><i class="fa fa-calendar magen"></i> <a href="https://www.citizenscience.org/events/conferences/citsci2019/" target="_blank">CitSci 2019</a> (Raleigh, NC)</li>
+                              <li><i class="fa fa-calendar magen"></i> <a href="http://iscram2018.rit.edu/" target="_blank">ISCRAM 2018</a> (Rochester, NY, USA)</li>
+                              <li><i class="fa fa-calendar magen"></i> <a href="https://iscram2017.mines-albi.fr/ target="_blank"">ISCRAM 2017</a> (Albi, France)</li>
+                              <li><i class="fa fa-calendar magen"></i> <a href="http://citizenscience.org/association/conferences/citsci2017/" target="_blank">CitSci 2017 </a> (Saint Paul, MN, USA)</li>
                               <li><i class="fa fa-calendar magen"></i> <a href="http://www.humancomputation.com/2016/" target="_blank">HCOMP 2016</a> (Austin, TX, USA)</li>
                               <li><i class="fa fa-calendar magen"></i> <a href="http://chi2016.acm.org/wp/" target="_blank">CHI 2016</a> (San Jose, CA, USA)</li>
                             </ul>
