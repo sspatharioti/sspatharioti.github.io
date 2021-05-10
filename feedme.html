@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Feed Me!</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Webpage for Sophie Spatharioti">
+    <meta name="author" content="Sophie Spatharioti, based on design by Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Flags CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.8.0/css/flag-icon.css" rel="stylesheet">
+
+    <!--  Carousel New -->
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+
+
+</head>
+
+<body>
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div id="top_ccis" class="container">
+            <a href="index.html" ><div class="profile-image pull-left" id="avatar"  alt="Sophie Spatharioti" ></div></a>
+            <div class="profile-content pull-left">
+                <a href="index.html" ><h1 class="name">Feed Me!</h1></a>
+                <!-- <h2 class="desc">Northeastern University</h2> -->
+                <h4 >Random Food Generator</h4>
+
+            </div><!--//profile-->
+        </div><!--//container-->
+    </header><!--//header-->
+
+    <div class="container ">
+        <div class="row">
+            <div class="primary col-md-12 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2  class="heading">Feed Me </h2>
+                        <div  class="content">
+
+                          <h4>Looking for:</h4>
+
+
+                          <button class=" feedme_button btn btn-cta-primary" id="snack_button"> Snack</button>
+                          <button class=" feedme_button btn btn-cta-primary" id="breakfast_button"> Breakfast</button>
+                          <button class=" feedme_button btn btn-cta-primary" id="dinner_button"> Main</button>
+                          <button class=" feedme_button btn btn-cta-primary" id="special_button"> Special</button>
+
+                            <br>
+                            <br>
+                            <div id="food-choice" style="display:none">
+                                <h4>Today you are having:</h4>
+                                <center>
+                                <img style="display:none;width: 150px;" id="food-choice-img" src="" class="img-fluid" alt="Food Image">
+                                    <small id="food-choice-source" ></small>
+                                    
+
+                              <h2 id="food-choice-name"> </h2>
+                              <a class="btn btn-cta-primary" style="display:none;width: 150px;" id="food-choice-link" href="" target="_blank">
+                                <i class="fa fa-sticky-note-o"></i> View Recipe</a>
+
+                            </center>
+
+                            
+
+                            </div>
+
+                            
+
+
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+
+
+
+
+
+            </div><!--//primary-->
+
+
+        </div><!--//row-->
+    </div><!--//masonry-->
+
+
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script> -->
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/feedme.js"></script>
+
+</body>
+</html>
