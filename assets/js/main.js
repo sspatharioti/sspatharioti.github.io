@@ -77,9 +77,10 @@ jQuery(document).ready(function($) {
                 [87,79,82,75], //w,o,r,k
                 [40,39,39,80], //d,r,r,p (hadoken)
                 [67,79,68,69], //c,o,d,e
-                [38,38,38,38] //u,u,u,u
+                [38,38,38,38],
+                [78,69,87,83] //n,e,w,s
               ];
-    var sections = [".publications",".presentations",".work",".maps",".latest",".profile-image"]
+    var sections = [".publications",".presentations",".work",".maps",".latest",".profile-image",".blog"]
     var next = [0,0,0,0,0,0];
     $(window).keydown(function(e){
       var key = e.which;

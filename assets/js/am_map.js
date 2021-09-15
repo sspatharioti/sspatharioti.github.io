@@ -100,8 +100,8 @@ var map = AmCharts.makeChart( "chartdiv", {
       "id": "line1",
       "arc": -0.85,
       "alpha": 0.3,
-      "latitudes": [ 37.9833333, 42.360082 ],
-      "longitudes": [ 23.727539, -71.058880]
+      "latitudes": [ 37.9833333, 40.712784 ], //Athens - NY    
+      "longitudes": [ 23.727539, -74.005941]
     }],
     "images": markers_conv
   }
