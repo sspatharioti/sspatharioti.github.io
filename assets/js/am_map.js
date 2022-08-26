@@ -18,6 +18,8 @@
    //USA
    {lat: 42.360082, lng: -71.058880, name: "Boston, USA" },
    {lat: 37.338208, lng: -121.886329, name: "San Jose, CA"},
+   {lat: 37.774929, lng: -122.419418, name: "San Fransisco, CA"},
+
    {lat: 30.267153, lng: -97.743061, name: "Austin, TX"},
    {lat: 25.761680, lng: -80.191790, name: "Miami, FL"},
    {lat: 47.606209, lng: -122.332071, name:"Seattle, WA"},
