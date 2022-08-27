@@ -126,6 +126,14 @@
         "image" : "mehndi_bw.jpg",
         "has_more": false,
         "icon": "canon_test.ico"
+    },
+    {
+        "title": "Wild West",
+        "category" : "color-photo",
+        "roll": "Cinestill 50D @ 100",
+        "image" : "wild_west.jpg",
+        "has_more": false,
+        "icon": "canon_test.ico"
     }
     
 ]
