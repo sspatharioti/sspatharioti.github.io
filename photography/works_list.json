@@ -1,0 +1,131 @@
+[
+    {
+        "title": "Time flies differently south of Houston street",
+        "work_link": "soho-skate",
+        "category" : "bw-photo",
+        "roll": "Kentmere 400",
+        "image" : "soho_skate/soho_skate_police.jpg",
+        "has_more": true
+    },
+    {
+        "title": "NYC",
+        "work_link": "nyc-streets",
+        "category" : "bw-photo",
+        "roll": "Kentmere 400",
+        "image" : "nyc_streets/nyc_streets_skate.jpg",
+        "has_more": true
+    },
+    {
+        "title": "MTA",
+        "work_link": "mta",
+        "category" : "bw-photo color-photo",
+        "roll": "Various",
+        "image" : "mta/mta_metropolis_woman.jpg",
+        "has_more": true
+    },
+    {
+        "title": "Longing",
+        "category" : "bw-photo",
+        "roll": "Fomapan 400",
+        "image" : "SoHo Jan22 [Holga] (Foma 400) 8.jpg",
+        "has_more": false,
+        "icon": "holga_test.ico"
+    },
+    {
+        "title": "People under the bridge",
+        "category" : "bw-photo",
+        "roll": "Kentmere 400",
+        "image" : "Dumbo [Kentmere 400] 10.jpg",
+        "has_more": false,
+        "icon": "nikon_test.ico"
+    },
+    {
+        "title": "Core Memories",
+        "work_link": "lesson",
+        "category" : "color-photo",
+        "roll": "Portra 400",
+        "image" : "lesson/Fairhaven (Portra 400) 1.jpg",
+        "has_more": true
+    },
+    {
+        "title": "In the Night",
+        "work_link": "in-the-night",
+        "category" : "color-photo",
+        "roll": "Various",
+        "image" : "nyc_night/nyc_night_girl.jpg",
+        "has_more": true
+    },
+    {
+        "title": "Trick Shot",
+        "category" : "bw-photo",
+        "roll": "Fomapan 400",
+        "image" : "holga_fail_hp5_plus 37-3.jpg",
+        "has_more": false,
+        "icon": "holga_test.ico"
+    },
+    {
+        "title": "Shelter",
+        "category" : "bw-photo",
+        "roll": "Fomapan 400",
+        "image" : "Williamsburg - fomo 400 2.png",
+        "has_more": false,
+        "icon": "nikon_test.ico"
+    },
+    {
+        "title": "Time capsule",
+        "work_link": "double-exposure",
+        "category" : "color-photo",
+        "roll": "Kodak",
+        "image" : "double_exposure/double_exposure_train.jpg",
+        "has_more": true
+    },
+    {
+        "title": "Surveillance",
+        "category" : "bw-photo",
+        "roll": "Kentmere 400",
+        "image" : "Williamsburg [Pony] (Kentmere 400) 14.jpg",
+        "has_more": false,
+        "icon": "pony_test.ico"
+    },
+    {
+        "title": "On the Way",
+        "category" : "bw-photo",
+        "roll": "Kentmere 400",
+        "image" : "Williamsburg [Pony] (Kentmere 400) 33.jpg",
+        "has_more": false,
+        "icon": "pony_test.ico"
+    },
+    {
+        "title": "Table set for two",
+        "category" : "color-photo",
+        "roll": "Kentmere 400",
+        "image" : "Sequim [Provia 100] 7.jpg",
+        "has_more": false,
+        "icon": "nikon_test.ico"
+    },
+    {
+        "title": "Gone Fishing",
+        "work_link": "fishing",
+        "category" : "color-photo",
+        "roll": "Various",
+        "image" : "fishing/San Fransisco (Superia 400) 26.jpg",
+        "has_more": true
+    },
+    {
+        "title": "SF",
+        "work_link": "sf",
+        "category" : "color-photo",
+        "roll": "Various",
+        "image" : "sf/ggb (Foma 400) 35.jpg",
+        "has_more": true
+    },
+    {
+        "title": "Mehndi",
+        "category" : "bw-photo",
+        "roll": "Fomapan 400",
+        "image" : "mehndi_bw.jpg",
+        "has_more": false,
+        "icon": "canon_test.ico"
+    }
+    
+]

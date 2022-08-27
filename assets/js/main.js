@@ -1,6 +1,30 @@
 jQuery(document).ready(function($) {
 
 
+  // load the publications
+   $.ajax({
+    url: "publications_list.json",
+    type: 'GET',
+    dataType: 'json',
+    success: function (all_data) {
+      publications = all_data.publications
+      // publications = $.each(publications, function (t, item) {
+      //   item.index = t + 1;
+      // })
+
+      var template = $("#publications-template").html();
+      var text = Mustache.render(template, publications);
+      $("#publications-container").html(text);
+      presentations = all_data.presentations
+      var template_pres = $("#presentations-template").html();
+      var text_pres = Mustache.render(template_pres, presentations);
+      $("#presentations-container").html(text_pres);
+
+    }
+});
+
+
+
 
 /*======= Carousel *=======*/
     $('.slick_carousel').slick({

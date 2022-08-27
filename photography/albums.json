@@ -1,0 +1,259 @@
+{
+    "soho-skate" : {
+        "album_title" : "Time flies differently south of Houston street.",
+        "description" : "(2021) In between the corporate and the fashion world. SoHo, NYC.",
+        "album_items" : [
+            {
+                "title" : "Police line - do not cross",
+                "roll": "Kentmere 400",
+                "image" : "soho_skate/soho_skate_police.jpg",
+                "col_size" : "col-sm-6 col-md-4 col-lg-4 mb-4"
+            },
+            {
+                "title" : "Line Up",
+                "roll": "Kentmere 400",
+                "image" : "soho_skate/soho_skate_chill.jpg",
+                "col_size" : "col-sm-6 col-md-4 col-lg-4 mb-4"
+            },
+            {
+                "title" : "Take Off",
+                "roll": "Kentmere 400",
+                "image" : "soho_skate/soho_skate_lines.jpg",
+                "col_size" : "col-sm-6 col-md-4 col-lg-4 mb-4"
+            },
+            {
+                "title" : "In the crowd",
+                "roll": "Kentmere 400",
+                "image" : "soho_skate/soho_skate_crowd.jpg",
+                "col_size" : "col-sm-6 col-md-4 col-lg-4 mb-4"
+                
+            }
+        ]  
+    },
+    "nyc-streets" : {
+        "album_title" : "New York City Streets.",
+        "description" : "(2021) A day in the life of the city.",
+        "album_items" : [
+            {
+                "title" : "Bus Only",
+                "roll": "Kentmere 400",
+                "image" : "nyc_streets/nyc_streets_skate.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Fashion Duo",
+                "roll": "Kentmere 400",
+                "image" : "nyc_streets/nyc_streets_fashion.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+
+            },
+            {
+                "title" : "Sliced",
+                "roll": "Kentmere 400",
+                "image" : "nyc_streets/nyc_streets_pizza.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            }
+        ]  
+    },
+    "mta" : {
+        "album_title" : "MTA.",
+        "description" : "(2022) Lost in the world of the Metropolitan Transportation Authority.",
+        "album_items" : [
+            {
+                "title" : "Frozen in motion",
+                "roll": "Lomography Metropolis",
+                "image" : "mta/mta_metropolis_woman.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Approaching",
+                "roll": "Lomography Metropolis",
+                "image" : "mta/mta_col.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Waiting on the world to change",
+                "roll": "Cinestill 800T",
+                "image" : "mta/mta_lorimer.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "You have arrived",
+                "roll": "Acros 100",
+                "image" : "mta/Astoria [Acros 100] (Olympus) 10.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "7401",
+                "roll": "Acros 100",
+                "image" : "mta/Astoria [Acros 100] (Olympus) 4.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Rhythm Track",
+                "roll": "Cinestill 800T",
+                "image" : "mta/mta_music.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Morning Rush",
+                "roll": "Acros 100",
+                "image" : "mta/mta_inside.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            }
+            
+        ]  
+    },
+    "lesson" : {
+        "album_title" : "Core Memories.",
+        "description" : "(2022) A lesson in happiness.",
+        "album_items" : [
+            {
+                "title" : "Core Memories - 1",
+                "roll": "Portra 400",
+                "image" : "lesson/Fairhaven (Portra 400) 3.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Core Memories - 2",
+                "roll": "Portra 400",
+                "image" : "lesson/Fairhaven (Portra 400) 1.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            } 
+        ]  
+    },
+    "in-the-night" : {
+        "album_title" : "In the Night.",
+        "description" : "The city comes alive.",
+        "album_items" : [
+            {
+                "title" : "Lights. Camera. Chemical reaction - 1",
+                "roll": "Fuji Superia 400",
+                "image" : "nyc_night/nyc_night_girl.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Lights. Camera. Chemical reaction - 2",
+                "roll": "Fuji Superia 400",
+                "image" : "nyc_night/nyc_night_couple.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Mise en abîme",
+                "roll": "Cinestill 800T",
+                "image" : "nyc_night/nyc_mise.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Billboards in the sky",
+                "roll": "Cinestill 800T",
+                "image" : "nyc_night/nyc_night_billboards.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            }
+        ]  
+    },
+    "fishing" : {
+        "album_title" : "Gone Fishing.",
+        "description" : "(2021/2022) Family traditions stay alive.",
+        "album_items" : [
+            {
+                "title" : "Plenty of fish in the sea - 1",
+                "roll": "Fuji Superia 400",
+                "image" : "fishing/San Fransisco (Superia 400) 30.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-4"
+            },
+            {
+                "title" : "Plenty of fish in the sea - 2",
+                "roll": "Fuji Superia 400",
+                "image" : "fishing/San Fransisco (Superia 400) 26.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-4"
+            },
+            {
+                "title" : "Plenty of fish in the sea - 3",
+                "roll": "Cinestill 50D",
+                "image" : "fishing/000012000017.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-4"
+            }
+             
+        ]  
+    },
+    "double-exposure" : {
+        "album_title" : "Time capsule.",
+        "description" : "Past meets future when you accidentally shoot through your father's 15yr old film. Island summer meets mountain foliage.",
+        "album_items" : [
+            {
+                "title" : "Window of opportunity",
+                "roll": "Kodak",
+                "image" : "double_exposure/de_foliage.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Ready to sail up the mountain",
+                "roll": "Kodak",
+                "image" : "double_exposure/de_port.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Port",
+                "roll": "Kodak",
+                "image" : "double_exposure/de_port2.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Tracks through the market",
+                "roll": "Kodak",
+                "image" : "double_exposure/double_exposure_tracks.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Island rail",
+                "roll": "Kodak",
+                "image" : "double_exposure/double_exposure_train.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            }
+            
+        ]  
+    },
+    "sf" : {
+        "album_title" : "SF.",
+        "description" : "Fog City.",
+        "album_items" : [
+            {
+                "title" : "Red and Gold",
+                "roll": "Fomapan 400",
+                "image" : "sf/ggb (Foma 400) 35.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Twin Peaks",
+                "roll": "Fomapan 400",
+                "image" : "sf/twin_peaks_fomo.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Zig Zags",
+                "roll": "E100",
+                "image" : "sf/sf_lombard.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Castro on the hill",
+                "roll": "Retrochrome",
+                "image" : "sf/sf_retro.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Summer Days",
+                "roll": "Retrochrome",
+                "image" : "sf/sf_hill.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            },
+            {
+                "title" : "Cable Cars",
+                "roll": "Retrochrome",
+                "image" : "sf/sf_cable_car.jpg",
+                "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
+            }   
+        ]  
+    }
+}
