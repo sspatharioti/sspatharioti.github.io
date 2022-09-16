@@ -22,6 +22,12 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+
+   <!-- our project just needs Font Awesome Solid + Brands -->
+   <link href="assets/vendor/fontawesome/css/fontawesome.css" rel="stylesheet">
+   <link href="assets/vendor/fontawesome/css/brands.css" rel="stylesheet">
+   <link href="assets/vendor/fontawesome/css/solid.css" rel="stylesheet">
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -30,6 +36,71 @@
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
    <script src="assets/js/templatejs.js"></script>
+
+   <script type="text/template" id="works-template">
+    {{#.}}
+    {{#has_more}}
+    <div id="{{work_link}}" class="item {{category}} work-item col-sm-6 col-md-4 col-lg-4 mb-4 show_more_button">
+       <a    class="item-wrap fancybox ">
+        <div class="work-info ">
+          <h3>{{title}}</h3>
+          <span>{{roll}}</span>
+          <br><span>(Click for more)</span>
+        </div>
+        <img class="img-fluid" src="assets/filmography/{{image}}">
+        </a> 
+    </div>
+    {{/has_more}}
+    {{^has_more}}
+    <div class="item {{category}} work-item col-sm-6 col-md-4 col-lg-4 mb-4">
+      <div  class="item-wrap fancybox intense-img" data-title="{{title}}" data-image="assets/filmography/{{image}}">
+        <div class="work-info">
+          <h3>{{title}}</h3>
+          <span>{{roll}}</span>
+          <p><img src="assets/img/camera_icons/{{icon}}" width="30"></p>
+        </div>
+        <img class="img-fluid" src="assets/filmography/{{image}}">
+      </div>
+    </div>
+    {{/has_more}}
+    
+    {{/.}}
+  </script>
+
+  <script type="text/template" id="album-template">
+    <div class="row mb-4 align-items-center">
+      <div class="col-md-6" data-aos="fade-up">
+        <h2>{{album_title}}</h2>
+        <p>{{description}}</p>
+      </div>
+    </div>
+  
+    <div class="site-section pb-0">
+      <div class="container">
+        <div  id="album-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+          {{#album_items}}
+          <div class="item  {{col_size}}">
+            <div   class="item-wrap fancybox intense-img" data-title="{{title}}" data-image="assets/filmography/{{image}}">
+              <div class="work-info">
+                <h3>{{title}}</h3>
+                <span>{{roll}}</span>
+              </div>
+              <img class="img-fluid" src="assets/filmography/{{image}}">
+            </div>
+          </div>
+          {{/album_items}}
+        </div>
+
+        <div class="row no-gutter align-items-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="item  col-sm-12 col-md-12 col-lg-12 mb-12">         
+             <p><a  href="index.html" class="readmore">Home</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      
+  </script>
 
 
 
@@ -94,86 +165,22 @@
           </div>
           <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
             <div id="filters" class="filters">
-              <a href="#" data-filter="*" class="active">All</a>
-              <a href="#" data-filter=".bw-photo">B&W</a>
-              <a href="#" data-filter=".color-photo">Color</a>
+              <a href="#" class="order_button"  id="order_shuffle" class="active">
+                <i class="fa-solid fa-dice"></i></i> Shuffled</a>
+              <a href="#"  class="order_button" id="order_date" ><i class="fa-regular fa-calendar"></i> Latest</a>
+              
               <!-- <a href="#" data-filter=".street-photo">Street</a>
               <a href="#" data-filter=".photography">Other</a> -->
             </div>
           </div>
         </div>
 
-        <script type="text/html" id="works-template">
-          {{#.}}
-          {{#has_more}}
-          <div id="{{work_link}}" class="item {{category}} col-sm-6 col-md-4 col-lg-4 mb-4 show_more_button">
-             <a    class="item-wrap fancybox ">
-              <div class="work-info ">
-                <h3>{{title}}</h3>
-                <span>{{roll}}</span>
-                <br><span>(Click for more)</span>
-
-
-              </div>
-              <img class="img-fluid" src="assets/filmography/{{image}}">
-              </a> 
-          </div>
-          {{/has_more}}
-          {{^has_more}}
-          <div class="item {{category}} col-sm-6 col-md-4 col-lg-4 mb-4">
-            <div  class="item-wrap fancybox intense-img" data-title="{{title}}" data-image="assets/filmography/{{image}}">
-              <div class="work-info">
-                <h3>{{title}}</h3>
-                <span>{{roll}}</span>
-                <p><img src="assets/img/camera_icons/{{icon}}" width="30"></p>
-              </div>
-              <img class="img-fluid" src="assets/filmography/{{image}}">
-            </div>
-          </div>
-          {{/has_more}}
-          
-          {{/.}}
-        </script>
+       
           <div id="portfolio-grid" class="row no-gutter works-container" data-aos="fade-up" data-aos-delay="200"></div>
       </div>
     </section><!-- End  Works Section -->
 
-    <script type="text/html" id="album-template">
-      <div class="row mb-4 align-items-center">
-        <div class="col-md-6" data-aos="fade-up">
-          <h2>{{album_title}}</h2>
-          <p>
-            {{description}}</p>
-        </div>
-      </div>
-    
-    <div class="site-section pb-0">
-      <div class="container">
-        <div  id="album-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-          {{#album_items}}
-          <div class="item  {{col_size}}">
-            <div   class="item-wrap fancybox intense-img" data-title="{{title}}" data-image="assets/filmography/{{image}}">
-              <div class="work-info">
-                <h3>{{title}}</h3>
-                <span>{{roll}}</span>
-              </div>
-              <img class="img-fluid" src="assets/filmography/{{image}}">
-            </div>
-          </div>
-          {{/album_items}}
-          </div>
-        </div>
-
-          <div class="row no-gutter align-items-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="item  col-sm-12 col-md-12 col-lg-12 mb-12">         
-               <p><a  href="index.html" class="readmore">Home</a></p>
-            </div>
-          </div>
-  
-        </div>
-        
-
-      </script>
+   
 
     
 

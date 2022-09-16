@@ -441,10 +441,12 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 --------------------------------------------------------------*/
 .footer {
   padding: 0 0 4rem 0;
+ 
 }
 .footer a {
   color: #000;
 }
+
 
 .social a {
   display: inline-block;
