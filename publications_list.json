@@ -2,9 +2,8 @@
     "publications": [
     {
         "title": "An Effective Platform for Crowd Classification of Coastal Wetland Loss",
-        "url" : "#",
+        "url" : "https://authorservices.wiley.com/api/pdf/fullArticle/17562578",
         "authors": "<b>Sofia Eleni Spatharioti</b>, Eliza Boetsch, Scott Eustis, Kutub Gandhi, Matt Rota, Archana Apte, Seth Cooper and Sara Wylie",
-        "to_appear": "To appear",
         "venue": "Conservation Science and Practice",
         "year": 2022
     },
@@ -12,8 +11,7 @@
         "title": "Performance of Paid and Volunteer Image Labeling in Citizen Science — A Retrospective Analysis",
         "authors": "Kutub Gandhi, <b>Sofia Eleni Spatharioti</b>, Scott Eustis, Sara Wylie and Seth Cooper ",
         "venue": "Proceedings of the 10th AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2022)" ,
-        "url" : "",
-        "to_appear": "To appear",
+        "url" : "https://ojs.aaai.org/index.php/HCOMP/article/view/21988/21764",
         "year": 2022
     },
     {
