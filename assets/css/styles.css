@@ -8,13 +8,20 @@
 */
 /* ======= Base ======= */
 
+/* 78C2AD */
+:root {
+  --primc: #4790E3;
+  --primb: #5ba0ef;
+  --primbhover: #356aa7;
+  --pagebaground: #f4f5f7;
+}
 
 
 body {
   font-family: 'Nunito', arial, sans-serif;
   color: #434343;
   /*Color: Ash  https://uigradients.com/#Royal*/
-  background: #f4f7f6; /* fallback for old browsers */
+  background: var(--pagebaground); /* fallback for old browsers */
   /* background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */ */
   /* background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */ */
 
@@ -39,7 +46,7 @@ h6 {
 }
 a {
   /* color: #78C2AD; */
-  color: #65a392;
+  color: var(--primb);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -47,8 +54,8 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #78C2AD;
-  color: #65a392;
+  color: var(--primc);
+  color: var(--primb);
   /* color: #6A1B9A; */
 }
 a:focus {
@@ -74,16 +81,16 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #78C2AD;
-  border: 1px solid #78C2AD;
+  background: var(--primc);
+  border: 1px solid var(--primc);
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #4e937f;
-  border: 1px solid #4e937f;
+  background: var(--primbhover);
+  border: 1px solid var(--primbhover);
   color: #fff;
 }
 a.btn-cta-secondary,
@@ -104,7 +111,7 @@ a.btn-cta-secondary:hover,
   color: #32383e;
 }
 .label-theme {
-  background: #78C2AD;
+  background: var(--primc);
   font-size: 12px;
 }
 a.dotted-link {
@@ -131,7 +138,7 @@ iframe {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f4f7f6;
+  background: var(--pagebaground)
   /*border-top: 10px solid #778492;*/
 }
 .header .btn {
@@ -156,7 +163,7 @@ iframe {
   margin-bottom: 15px;
 }
 .header .profile-content .social a {
-  background: #78C2AD;
+  background: var(--primc);
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -397,7 +404,7 @@ iframe {
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #78C2AD;
+  background: var(--primc);
 }
 /* Testimonials section */
 .testimonials .item {
@@ -464,7 +471,7 @@ iframe {
   margin-bottom: 0;
 }
 .languages .item .fa {
-  color: #78C2AD;
+  color: var(--primc);
 }
 /* Blog Section */
 .blog .item {
@@ -524,11 +531,11 @@ iframe {
 }
 .footer .copyright {
   line-height: 1.6;
-  color: #78C2AD;
+  color: var(--primc);
   font-size: 14px;
 }
 .footer a {
-  color: #78C2AD;
+  color: var(--primc);
 }
 .footer .fa-heart {
   color: #fb866a;
@@ -599,7 +606,7 @@ iframe {
   height: 500px;
 }
 .magen {
-  color: #78C2AD;
+  color: var(--primc);
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -608,7 +615,7 @@ iframe {
 }
 
 .alert_custom{
-  background: #78C2AD;
+  background: var(--primc);
   color:#fff
 }
 
