@@ -4,9 +4,17 @@
             "title": "Comparing Traditional and LLM-based Search for Consumer Choice: A Randomized Experiment",
             "url": "https://arxiv.org/abs/2307.03744",
             "authors": "<b>Sofia Eleni Spatharioti</b>, David M. Rothschild, Daniel G. Goldstein, Jake M. Hofman",
-            "venue": "Preprint",
+            "venue": "Preprint 2023",
             "year" : 2023
         },
+        {
+            "title": "Comparing scalable strategies for generating numerical perspectives",
+            "url": "https://arxiv.org/abs/2308.01535",
+            "authors": "Hancheng Cao, <b>Sofia Eleni Spatharioti</b>, Daniel G. Goldstein, Jake M. Hofman",
+            "venue": "Preprint 2023",
+            "year" : 2023
+        },
+        
         {
             "title": "An Effective Platform for Crowd Classification of Coastal Wetland Loss",
             "url": "https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/csp2.12844",
@@ -76,7 +84,7 @@
             "url": "assets/files/2017-iscram-variety.pdf",
             "to_appear": "",
             "year": 2017,
-            "nomination": "Best Student Paper Award Nomination",
+            "nomination": " Best Student Paper Award Nomination",
             "nomination_icon": "<i class=\"fa fa-trophy\"></i>"
         }
     ],
