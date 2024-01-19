@@ -128,12 +128,15 @@
             <h2 class="heading">About Me</h2>
             <div class="content">
               <p>
-                I am a researcher with 8 years of experience conducting quantitative/qualitative research and data analysis 
-                and publishing research at top venues at the intersection of Human Computer Interaction, crowdsourcing, computational
+                I am a researcher with 8 years of experience conducting quantitative/qualitative research and data
+                analysis
+                and publishing research at top venues at the intersection of Human Computer Interaction, crowdsourcing,
+                computational
                 social science and
-                games. I have extensive code development and design experience, 
-                and have led and collaborated with interdisciplinary teams, ranging from non-profits, to academics and product teams. 
-                
+                games. I have extensive code development and design experience,
+                and have led and collaborated with interdisciplinary teams, ranging from non-profits, to academics and
+                product teams.
+
               </p>
               <p>
                 Most recently, I was a postdoctoral researcher at <a target="_blank"
@@ -214,15 +217,24 @@
               <p> You can find more information at the News section.</p>
 
               <ul class="list">
+
+                
+
+                <li><b>[January 2024]</b> CHI 2024: Our work titled <i>`Using Open Data to Automatically Generate Localized Analogies`</i> has been conditionally accepted!
+              </li>
+                <li><b>[December 2023]</b> Microsoft's <a href="https://www.microsoft.com/en-us/research/publication/microsoft-new-future-of-work-report-2023/" target="_blank">
+                  New Future of Work Report</a> is out, featuring our work on LLM-based Search.
+              </li>
                 <li><b>[July 2023]</b> New paper: <a href="https://arxiv.org/abs/2307.03744" target="_blank">Comparing
                     Traditional and LLM-based Search for Consumer Choice: A Randomized Experiment
                   </a>
+                </li> 
+                <li><b>[July 2023]</b> Excited to see my work selected for Analog Forever Magazine's
+                  <a href="https://www.analogforevermagazine.com/online-exhibitions/streets-seen-july-2023"
+                    target="_blank">"Street Scenes/Streets, Seen"
+                  </a>
+                  online exhibition!
                 </li>
-                <li><b>[July 2023]</b> Excited to see my work selected for Analog Forever Magazine's 
-                   <a href="https://www.analogforevermagazine.com/online-exhibitions/streets-seen-july-2023" target="_blank">"Street Scenes/Streets, Seen"
-                </a>
-                online exhibition!
-              </li>
                 <!-- <li><b>[April 2022]</b> <a href="https://www.youtube.com/watch?v=kma3ykDAHJw&t=1352s&ab_channel=SciFri"
                     target="_blank">Land Loss Lookout</a> featured on Science Friday's Earth Day 2022 Trivia Night
                   livestream.
@@ -254,9 +266,13 @@
                             <div class="item">
                               <!-- TODO: Update Links when available -->
                                 <h3 class="title">
-                                  <a  href="{{url}}" target="_blank">
-                                     {{title}}
-                                </a></h3>
+                                  {{#url}}
+                                    <a  href="{{url}}" target="_blank">{{title}}</a>
+                                  {{/url}}
+                                  {{^url}}
+                                    <a  data-toggle="modal" data-target="#soon_modal" target="_blank">{{title}}</a>
+                                  {{/url}}
+                                </h3>
                                 <p class="authors">
                                   {{{authors}}}
                                  </p>
@@ -637,7 +653,8 @@
                 <div>
                   <img class="carouselImg img-fluid" src="assets/images/analog_forever.png"
                     alt="Analog Forever Magazine Online Exhibition">
-                  <h4 class="magen">"Frozen in motion pt2" featured in Analog Forever Magazine's "Street Scenes/Streets, Seen" online exhibition.</h3>
+                  <h4 class="magen">"Frozen in motion pt2" featured in Analog Forever Magazine's "Street Scenes/Streets,
+                    Seen" online exhibition.</h3>
                     <!-- <p>Perspectives Engine.</p> -->
                     <p><a class="btn btn-cta-primary btn-xs" target="_blank"
                         href="https://www.analogforevermagazine.com/online-exhibitions/streets-seen-july-2023">Learn
@@ -906,7 +923,7 @@
               <h5>Reviewer</h5>
               <ul class="list-unstyled">
                 <li><i class="fa fa-pencil-square-o magen"></i> <a href="https://chi2024.acm.org/" target="_blank">CHI
-                  2024</a> Reviewer</li>
+                    2024</a> Reviewer</li>
                 <li><i class="fa fa-pencil-square-o magen"></i> <a href="https://chi2022.acm.org/" target="_blank">CHI
                     2022</a> Reviewer</li>
                 <li><i class="fa fa-pencil-square-o magen"></i> <a

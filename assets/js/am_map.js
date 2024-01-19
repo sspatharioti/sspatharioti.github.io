@@ -6,7 +6,7 @@
  //http://www.latlong.net/
  var markers = [
    //Europe
-   {lat: 37.9833333, lng: 23.7333333, name: "Athens, Greece"},
+   {lat: 37.9833333, lng: 23.7333333, name: "Athens, Greece",lived: true },
    {lat: 48.856614, lng: 2.352222, name:"Paris, France" },
    {lat: 41.902783, lng: 12.496366, name: "Rome, Italy" },
    {lat: 45.070312, lng: 7.686856, name: "Turin, Italy" },
@@ -16,14 +16,14 @@
    {lat: 43.925085, lng: 2.148641, name: "Albi, France" },
    {lat: 41.385063, lng: 2.173404, name: "Barcelona, Spain" },
    //USA
-   {lat: 42.360082, lng: -71.058880, name: "Boston, USA" },
+   {lat: 42.360082, lng: -71.058880, name: "Boston, USA", lived: true },
+   {lat: 47.606209, lng: -122.332071, name:"Seattle, WA",lived: true },
+   {lat: 40.712784, lng: -74.005941, name:"New York, NY",lived: true },
+
    {lat: 37.338208, lng: -121.886329, name: "San Jose, CA"},
    {lat: 37.774929, lng: -122.419418, name: "San Fransisco, CA"},
-
    {lat: 30.267153, lng: -97.743061, name: "Austin, TX"},
    {lat: 25.761680, lng: -80.191790, name: "Miami, FL"},
-   {lat: 47.606209, lng: -122.332071, name:"Seattle, WA"},
-   {lat: 40.712784, lng: -74.005941, name:"New York, NY"},
    {lat: 44.943888, lng: -93.099710, name:"St Paul, MN"},
    {lat: 41.499320, lng: -81.694361, name:"Cleveland, OH"},
    {lat: 34.052234, lng: -118.243685, name:"Los Angeles, CA"},
@@ -32,6 +32,8 @@
    {lat:41.878113, lng: -87.629799 , name:"Chicago, IL"},
    {lat:21.306944, lng: -157.858337, name:"Honolulu, HI"},
    {lat:44.052071, lng: -123.086754, name:"Eugene, OR"},
+   {lat:33.448376, lng:-112.074036, name:"Phoenix, AZ"},
+
    //Rest:
    {lat: 9.392308, lng: -84.136988, name:" Costa Rica"},
    {lat: 20.967370, lng: -89.592586, name:"Mexico"},
@@ -44,19 +46,25 @@
  var planeSVG = "m2,106h28l24,30h72l-44,-133h35l80,132h98c21,0 21,34 0,34l-98,0 -80,134h-35l43,-133h-71l-24,30h-28l15,-47";
 
 
-
  markers_conv = []
  for (var i = 0; i < markers.length; i++) {
 
+  var colr = "#f7f14c"
+  var pSVG = targetSVG
+
    var mar = markers[i]
+
+   if (mar.lived) {
+    colr = "#94902d"
+   }
    markers_conv.push({
      "latitude": mar.lat,
      "longitude": mar.lng,
      "title": mar.name,
      "zoomLevel": 5,
      "scale": 0.2,
-     "svgPath": targetSVG,
-     "color":"#f7f14c"
+     "svgPath": pSVG,
+     "color":colr
    })
  }
  markers_conv.push({
@@ -102,8 +110,8 @@ var map = AmCharts.makeChart( "chartdiv", {
       "id": "line1",
       "arc": -0.85,
       "alpha": 0.3,
-      "latitudes": [ 37.9833333, 40.712784 ], //Athens - NY    
-      "longitudes": [ 23.727539, -74.005941]
+      "latitudes": [ 37.9833333, 47.606209], //Athens - Seattle    
+      "longitudes": [ 23.727539, -122.332071]
     }],
     "images": markers_conv
   }

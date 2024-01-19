@@ -1,6 +1,21 @@
 {
     "publications": [
         {
+            "title": "Using Open Data to Automatically Generate Localized Analogies",
+            "url": "",
+            "authors": "<b>Sofia Eleni Spatharioti</b>, Daniel G. Goldstein, Jake M. Hofman",
+            "venue": "[CHI 2024] Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+            "to_appear": "To Appear",
+            "year" : 2024
+        },
+        {
+            "title": "Early LLM-based Tools for Enterprise Information Workers Likely Provide Meaningful Boosts to Productivity",
+            "url": "https://www.microsoft.com/en-us/research/uploads/prod/2023/12/AI-and-Productivity-Report-First-Edition.pdf",
+            "authors": "Alexia Cambon, Brent Hecht, Ben Edelman, Donald Ngwe, Sonia Jaffe, Amy Heger, Mihaela Vorvoreanu, Sida Peng, Jake Hofman, Alex Farach, Margarita Bermejo-Cano, Eric Knudsen, James Bono, Hardik Sanghavi, <b>Sofia Eleni Spatharioti</b>, David Rothschild, Daniel G Goldstein, Eirini Kalliamvakou, Peter Cihon, Mert Demirer, Michael Schwarz, Jaime Teevan",
+            "venue": "Microsoft AI & Productivity Report 2023",
+            "year" : 2023
+        },
+        {
             "title": "Comparing Traditional and LLM-based Search for Consumer Choice: A Randomized Experiment",
             "url": "https://arxiv.org/abs/2307.03744",
             "authors": "<b>Sofia Eleni Spatharioti</b>, David M. Rothschild, Daniel G. Goldstein, Jake M. Hofman",
@@ -19,20 +34,20 @@
             "title": "An Effective Platform for Crowd Classification of Coastal Wetland Loss",
             "url": "https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/csp2.12844",
             "authors": "<b>Sofia Eleni Spatharioti</b>, Eliza Boetsch, Scott Eustis, Kutub Gandhi, Matt Rota, Archana Apte, Seth Cooper and Sara Wylie",
-            "venue": "Conservation Science and Practice",
+            "venue": "Conservation Science and Practice 2022",
             "year": 2022
         },
         {
             "title": "Performance of Paid and Volunteer Image Labeling in Citizen Science — A Retrospective Analysis",
             "authors": "Kutub Gandhi, <b>Sofia Eleni Spatharioti</b>, Scott Eustis, Sara Wylie and Seth Cooper ",
-            "venue": "Proceedings of the 10th AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2022)",
+            "venue": "[HCOMP 2022] Proceedings of the 10th AAAI Conference on Human Computation and Crowdsourcing",
             "url": "https://ojs.aaai.org/index.php/HCOMP/article/view/21988/21764",
             "year": 2022
         },
         {
             "title": "Exploring Q-Learning for Adaptive Difficulty in a Tile-based Image Labeling Game",
             "authors": "<b>Sofia Eleni Spatharioti</b>, Sara Wylie and Seth Cooper",
-            "venue": "Proceedings of the 3rd IEEE Conference on Games (COG 2021)",
+            "venue": "[COG 2021] Proceedings of the 3rd IEEE Conference on Games",
             "url": "https://ieee-cog.org/2021/assets/papers/paper_33.pdf",
             "to_appear": "",
             "year": 2021
@@ -40,7 +55,7 @@
         {
             "title": "A Comparison of Augmented Reality and Digital Versions of a Citizen Science Game",
             "authors": "Kutub Gandhi, Josh Aaron Miller, <b>Sofia Eleni Spatharioti</b>, Archana Apte, Borna Fatehi, Sara Wylie and Seth Cooper ",
-            "venue": "Proceedings of the 16th International Conference on the Foundations of Digital Games (FDG 2021)",
+            "venue": "[FDG 2021] Proceedings of the 16th International Conference on the Foundations of Digital Games",
             "url": "https://dl.acm.org/doi/10.1145/3472538.3472557",
             "to_appear": "",
             "year": 2021
@@ -48,7 +63,7 @@
         {
             "title": "Tile-o-Scope AR: An Augmented Reality Tabletop Image Labeling Game Toolkit",
             "authors": "<b>Sofia Eleni Spatharioti</b>, Borna Fatehi, Melanie Smith, Avery Rosenbloom, Josh Aaron Miller, Magy Seif El-Nasr, Sara Wylie and Seth Cooper ",
-            "venue": "Proceedings of the 15th International Conference on the Foundations of Digital Games (FDG 2020)",
+            "venue": "[FDG 2020] Proceedings of the 15th International Conference on the Foundations of Digital Games",
             "url": "http://fdg2020.org/conference/proceedings/tileoscope_ar_an_augmented_reality_tabletop_image_labeling_game_toolkit.pdf",
             "to_appear": "",
             "year": 2020
@@ -56,7 +71,7 @@
         {
             "title": "Using Q-Learning for Sequencing Level Difficulties in a Citizen Science Matching Game",
             "authors": "<b>Sofia Eleni Spatharioti</b>, Sara Wylie and Seth Cooper",
-            "venue": "Proceedings of the 2019 Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts (CHI PLAY 2019)",
+            "venue": "[CHI PLAY 2019] Proceedings of the 2019 Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts",
             "url": "https://dl.acm.org/citation.cfm?id=3356299",
             "to_appear": "",
             "year": 2019
@@ -64,7 +79,7 @@
         {
             "title": "Does Flight Path Context Matter? Impact on Worker Performance in Crowdsourced Aerial Imagery Analysis",
             "authors": "<b>Sofia Eleni Spatharioti</b>, Sara Wylie and Seth Cooper",
-            "venue": "Proceedings of the 15th International Conference on Information Systems for Crisis Response And Management, (ISCRAM 2018)",
+            "venue": "[ISCRAM 2018] Proceedings of the 15th International Conference on Information Systems for Crisis Response And Management",
             "url": "assets/files/2018-iscram-context.pdf",
             "to_appear": "",
             "year": 2018
@@ -72,7 +87,7 @@
         {
             "title": "A Required Work Payment Scheme for Crowdsourced Disaster Response: Worker Performance and Motivations",
             "authors": "<b>Sofia Eleni Spatharioti</b>, Rebecca Govoni, Jennifer S. Carrera, Sara Wylie and Seth Cooper",
-            "venue": "Proceedings of the 14th International Conference on Information Systems for Crisis Response And Management, (ISCRAM 2017)",
+            "venue": "[ISCRAM 2017] Proceedings of the 14th International Conference on Information Systems for Crisis Response And Management",
             "url": "assets/files/2017-iscram-work.pdf",
             "to_appear": "",
             "year": 2017
@@ -80,7 +95,7 @@
         {
             "title": "On Variety, Complexity, and Engagement in Crowdsourced Disaster Response Tasks",
             "authors": "<b>Sofia Eleni Spatharioti</b> and Seth Cooper",
-            "venue": "Proceedings of the 14th International Conference on Information Systems for Crisis Response And Management, (ISCRAM 2017)",
+            "venue": "[ISCRAM 2017] Proceedings of the 14th International Conference on Information Systems for Crisis Response And Management",
             "url": "assets/files/2017-iscram-variety.pdf",
             "to_appear": "",
             "year": 2017,
