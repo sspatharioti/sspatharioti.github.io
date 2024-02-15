@@ -12,7 +12,7 @@
             {
                 "title" : "Line Up",
                 "roll": "Kentmere 400",
-                "image" : "soho_skate/soho_skate_chill.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531869720_0330ffe2e2_b.jpg",
                 "col_size" : "col-sm-6 col-md-4 col-lg-4 mb-4"
             },
             {
@@ -24,7 +24,7 @@
             {
                 "title" : "In the crowd",
                 "roll": "Kentmere 400",
-                "image" : "soho_skate/soho_skate_crowd.jpg",
+                "image" : "https://live.staticflickr.com/65535/53530543442_7b5d581dc4_b.jpg",
                 "col_size" : "col-sm-6 col-md-4 col-lg-4 mb-4"
                 
             }
