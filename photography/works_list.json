@@ -5,7 +5,7 @@
         "work_link": "soho-skate",
         "category" : "bw-photo",
         "roll": "Kentmere 400",
-        "image" : "soho_skate/soho_skate_police.jpg",
+        "image" : "https://live.staticflickr.com/65535/53530543472_27c8eb9328_k.jpg",
         "has_more": true
     },
     {
@@ -14,7 +14,7 @@
         "work_link": "nyc-streets",
         "category" : "bw-photo",
         "roll": "Kentmere 400",
-        "image" : "nyc_streets/nyc_streets_skate.jpg",
+        "image" : "https://live.staticflickr.com/65535/53531682263_a69a984313_k.jpg",
         "has_more": true
     },
     {
@@ -23,7 +23,7 @@
         "work_link": "mta",
         "category" : "bw-photo color-photo",
         "roll": "Various",
-        "image" : "mta/mta_metropolis_woman.jpg",
+        "image" : "https://live.staticflickr.com/65535/53531823729_12eb6786f7_k.jpg",
         "has_more": true
     },
     {
@@ -31,7 +31,7 @@
         "title": "Longing",
         "category" : "bw-photo",
         "roll": "Fomapan 400",
-        "image" : "SoHo Jan22 [Holga] (Foma 400) 8.jpg",
+        "image" : "https://live.staticflickr.com/65535/53530621932_e040d14bdc_k.jpg",
         "has_more": false,
         "icon": "holga_test.ico"
     },
@@ -40,7 +40,7 @@
         "title": "People under the bridge",
         "category" : "bw-photo",
         "roll": "Kentmere 400",
-        "image" : "Dumbo [Kentmere 400] 10.jpg",
+        "image" : "https://live.staticflickr.com/65535/53530625392_6c1cfecd9c_k.jpg",
         "has_more": false,
         "icon": "nikon_test.ico"
     },
@@ -50,7 +50,7 @@
         "work_link": "lesson",
         "category" : "color-photo",
         "roll": "Portra 400",
-        "image" : "lesson/Fairhaven (Portra 400) 1.jpg",
+        "image" : "https://live.staticflickr.com/65535/53531953895_91f0b858a5_b.jpg",
         "has_more": true
     },
     {
@@ -59,7 +59,7 @@
         "work_link": "in-the-night",
         "category" : "color-photo",
         "roll": "Various",
-        "image" : "nyc_night/nyc_night_girl.jpg",
+        "image" : "https://live.staticflickr.com/65535/53530632997_c9ba561496_b.jpg",
         "has_more": true
     },
     {
@@ -67,7 +67,7 @@
         "title": "Trick Shot",
         "category" : "bw-photo",
         "roll": "Fomapan 400",
-        "image" : "holga_fail_hp5_plus 37-3.jpg",
+        "image" : "https://live.staticflickr.com/65535/53531864734_356a011c0e_b.jpg",
         "has_more": false,
         "icon": "holga_test.ico"
     },
@@ -76,7 +76,7 @@
         "title": "Shelter",
         "category" : "bw-photo",
         "roll": "Fomapan 400",
-        "image" : "Williamsburg - fomo 400 2.png",
+        "image" : "https://live.staticflickr.com/65535/53531866439_c3113b4359_b.jpg",
         "has_more": false,
         "icon": "nikon_test.ico"
     },
@@ -86,7 +86,7 @@
         "work_link": "double-exposure",
         "category" : "color-photo",
         "roll": "Kodak",
-        "image" : "double_exposure/double_exposure_train.jpg",
+        "image" : "https://live.staticflickr.com/65535/53531981575_5b58c2faae_b.jpg",
         "has_more": true
     },
     {
@@ -94,7 +94,7 @@
         "title": "Surveillance",
         "category" : "bw-photo",
         "roll": "Kentmere 400",
-        "image" : "Williamsburg [Pony] (Kentmere 400) 14.jpg",
+        "image" : "https://live.staticflickr.com/65535/53530664317_82e3f2c602_b.jpg",
         "has_more": false,
         "icon": "pony_test.ico"
     },
@@ -103,7 +103,7 @@
         "title": "On the Way",
         "category" : "bw-photo",
         "roll": "Kentmere 400",
-        "image" : "Williamsburg [Pony] (Kentmere 400) 33.jpg",
+        "image" : "https://live.staticflickr.com/65535/53531748958_9766b3451a_b.jpg",
         "has_more": false,
         "icon": "pony_test.ico"
     },
@@ -112,7 +112,7 @@
         "title": "Table set for two",
         "category" : "color-photo",
         "roll": "Kentmere 400",
-        "image" : "Sequim [Provia 100] 7.jpg",
+        "image" : "https://live.staticflickr.com/65535/53531562971_085c3ab611_b.jpg",
         "has_more": false,
         "icon": "nikon_test.ico"
     },
@@ -122,7 +122,7 @@
         "work_link": "fishing",
         "category" : "color-photo",
         "roll": "Various",
-        "image" : "fishing/San Fransisco (Superia 400) 26.jpg",
+        "image" : "https://live.staticflickr.com/65535/53530670852_e11091ef7d_b.jpg",
         "has_more": true
     },
     {
@@ -131,7 +131,7 @@
         "work_link": "sf",
         "category" : "color-photo",
         "roll": "Various",
-        "image" : "sf/ggb (Foma 400) 35.jpg",
+        "image" : "https://live.staticflickr.com/65535/53531894804_304a0bbcc4_b.jpg",
         "has_more": true
     },
     {
@@ -139,7 +139,7 @@
         "title": "Mehndi",
         "category" : "bw-photo",
         "roll": "Fomapan 400",
-        "image" : "mehndi_bw.jpg",
+        "image" : "https://live.staticflickr.com/65535/53531758008_33203f39a9_b.jpg",
         "has_more": false,
         "icon": "canon_test.ico"
     },
@@ -148,7 +148,7 @@
         "title": "Wild West",
         "category" : "color-photo",
         "roll": "Cinestill 50D @ 100",
-        "image" : "wild_west.jpg",
+        "image" : "https://live.staticflickr.com/65535/53531571036_5cb60977ff_b.jpg",
         "has_more": false,
         "icon": "canon_test.ico"
     }

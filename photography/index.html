@@ -47,19 +47,19 @@
           <span>{{roll}}</span>
           <br><span>(Click for more)</span>
         </div>
-        <img class="img-fluid" src="assets/filmography/{{image}}">
+        <img class="img-fluid" src="{{image}}">
         </a> 
     </div>
     {{/has_more}}
     {{^has_more}}
     <div class="item {{category}} work-item col-sm-6 col-md-4 col-lg-4 mb-4">
-      <div  class="item-wrap fancybox intense-img" data-title="{{title}}" data-image="assets/filmography/{{image}}">
+      <div  class="item-wrap fancybox intense-img" data-title="{{title}}" data-image="{{image}}">
         <div class="work-info">
           <h3>{{title}}</h3>
           <span>{{roll}}</span>
           <p><img src="assets/img/camera_icons/{{icon}}" width="30"></p>
         </div>
-        <img class="img-fluid" src="assets/filmography/{{image}}">
+        <img class="img-fluid" src="{{image}}">
       </div>
     </div>
     {{/has_more}}
@@ -80,12 +80,12 @@
         <div  id="album-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
           {{#album_items}}
           <div class="item  {{col_size}}">
-            <div   class="item-wrap fancybox intense-img" data-title="{{title}}" data-image="assets/filmography/{{image}}">
+            <div   class="item-wrap fancybox intense-img" data-title="{{title}}" data-image="{{image}}">
               <div class="work-info">
                 <h3>{{title}}</h3>
                 <span>{{roll}}</span>
               </div>
-              <img class="img-fluid" src="assets/filmography/{{image}}">
+              <img class="img-fluid" src="{{image}}">
             </div>
           </div>
           {{/album_items}}

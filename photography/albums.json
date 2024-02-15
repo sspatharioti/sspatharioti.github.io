@@ -6,7 +6,7 @@
             {
                 "title" : "Police line - do not cross",
                 "roll": "Kentmere 400",
-                "image" : "soho_skate/soho_skate_police.jpg",
+                "image" : "https://live.staticflickr.com/65535/53530543472_27c8eb9328_k.jpg",
                 "col_size" : "col-sm-6 col-md-4 col-lg-4 mb-4"
             },
             {
@@ -18,7 +18,7 @@
             {
                 "title" : "Take Off",
                 "roll": "Kentmere 400",
-                "image" : "soho_skate/soho_skate_lines.jpg",
+                "image" : "https://live.staticflickr.com/65535/53530543502_706d2389a8_k.jpg",
                 "col_size" : "col-sm-6 col-md-4 col-lg-4 mb-4"
             },
             {
@@ -37,20 +37,20 @@
             {
                 "title" : "Bus Only",
                 "roll": "Kentmere 400",
-                "image" : "nyc_streets/nyc_streets_skate.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531682263_a69a984313_k.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Fashion Duo",
                 "roll": "Kentmere 400",
-                "image" : "nyc_streets/nyc_streets_fashion.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531811034_a111eb02c6_k.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
 
             },
             {
                 "title" : "Sliced",
                 "roll": "Kentmere 400",
-                "image" : "nyc_streets/nyc_streets_pizza.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531682243_0a9dae8c33_k.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             }
         ]  
@@ -62,43 +62,43 @@
             {
                 "title" : "Frozen in motion",
                 "roll": "Lomography Metropolis",
-                "image" : "mta/mta_metropolis_woman.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531823729_12eb6786f7_k.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Approaching",
                 "roll": "Lomography Metropolis",
-                "image" : "mta/mta_col.jpg",
+                "image" : "https://live.staticflickr.com/65535/53530611037_61c73b431c_k.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Waiting on the world to change",
                 "roll": "Cinestill 800T",
-                "image" : "mta/mta_lorimer.jpg",
+                "image" : "https://live.staticflickr.com/65535/53530610372_4a9dc4be6b_k.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "You have arrived",
                 "roll": "Acros 100",
-                "image" : "mta/Astoria [Acros 100] (Olympus) 10.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531507211_526add0996_k.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "7401",
                 "roll": "Acros 100",
-                "image" : "mta/Astoria [Acros 100] (Olympus) 4.jpg",
+                "image" : "https://live.staticflickr.com/65535/53530611127_833936ef2b_k.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Rhythm Track",
                 "roll": "Cinestill 800T",
-                "image" : "mta/mta_music.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531937355_e36faf2324_k.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Morning Rush",
                 "roll": "Acros 100",
-                "image" : "mta/mta_inside.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531936980_5e3f5c9c56_k.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             }
             
@@ -111,13 +111,13 @@
             {
                 "title" : "Core Memories - 1",
                 "roll": "Portra 400",
-                "image" : "lesson/Fairhaven (Portra 400) 3.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531953895_91f0b858a5_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Core Memories - 2",
                 "roll": "Portra 400",
-                "image" : "lesson/Fairhaven (Portra 400) 1.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531953890_b699b8a3bf_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             } 
         ]  
@@ -129,25 +129,25 @@
             {
                 "title" : "Lights. Camera. Chemical reaction - 1",
                 "roll": "Fuji Superia 400",
-                "image" : "nyc_night/nyc_night_girl.jpg",
+                "image" : "https://live.staticflickr.com/65535/53530632997_c9ba561496_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Lights. Camera. Chemical reaction - 2",
                 "roll": "Fuji Superia 400",
-                "image" : "nyc_night/nyc_night_couple.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531716653_1b8f8c017b_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Mise en abîme",
                 "roll": "Cinestill 800T",
-                "image" : "nyc_night/nyc_mise.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531959020_5e24c16cb8_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Billboards in the sky",
                 "roll": "Cinestill 800T",
-                "image" : "nyc_night/nyc_night_billboards.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531959090_a0aa45554c_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             }
         ]  
@@ -159,19 +159,19 @@
             {
                 "title" : "Plenty of fish in the sea - 1",
                 "roll": "Fuji Superia 400",
-                "image" : "fishing/San Fransisco (Superia 400) 30.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531753663_ee58849999_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-4"
             },
             {
                 "title" : "Plenty of fish in the sea - 2",
                 "roll": "Fuji Superia 400",
-                "image" : "fishing/San Fransisco (Superia 400) 26.jpg",
+                "image" : "https://live.staticflickr.com/65535/53530670852_e11091ef7d_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-4"
             },
             {
                 "title" : "Plenty of fish in the sea - 3",
                 "roll": "Cinestill 50D",
-                "image" : "fishing/000012000017.jpg",
+                "image" : "https://live.staticflickr.com/65535/53530670927_b40279b6b6_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-4"
             }
              
@@ -184,31 +184,31 @@
             {
                 "title" : "Window of opportunity",
                 "roll": "Kodak",
-                "image" : "double_exposure/de_foliage.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531982065_2497119b73_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Ready to sail up the mountain",
                 "roll": "Kodak",
-                "image" : "double_exposure/de_port.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531869854_3f72bfb5fb_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Port",
                 "roll": "Kodak",
-                "image" : "double_exposure/de_port2.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531869219_4b0f24ab2b_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Tracks through the market",
                 "roll": "Kodak",
-                "image" : "double_exposure/double_exposure_tracks.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531869399_6456c1246c_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Island rail",
                 "roll": "Kodak",
-                "image" : "double_exposure/double_exposure_train.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531981575_5b58c2faae_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             }
             
@@ -221,37 +221,37 @@
             {
                 "title" : "Red and Gold",
                 "roll": "Fomapan 400",
-                "image" : "sf/ggb (Foma 400) 35.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531894804_304a0bbcc4_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Twin Peaks",
                 "roll": "Fomapan 400",
-                "image" : "sf/twin_peaks_fomo.jpg",
+                "image" : "https://live.staticflickr.com/65535/53532006715_cbda667f8c_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Zig Zags",
                 "roll": "E100",
-                "image" : "sf/sf_lombard.jpg",
+                "image" : "https://live.staticflickr.com/65535/53532006800_f43fa0f0a8_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Castro on the hill",
                 "roll": "Retrochrome",
-                "image" : "sf/sf_retro.jpg",
+                "image" : "https://live.staticflickr.com/65535/53532006670_1575d69167_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Summer Days",
                 "roll": "Retrochrome",
-                "image" : "sf/sf_hill.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531764008_0eb143a93b_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             },
             {
                 "title" : "Cable Cars",
                 "roll": "Retrochrome",
-                "image" : "sf/sf_cable_car.jpg",
+                "image" : "https://live.staticflickr.com/65535/53531577386_7efa7c5cfb_b.jpg",
                 "col_size" : "col-sm-6 col-md-6 col-lg-6 mb-6"
             }   
         ]  
